@@ -1,22 +1,16 @@
 public class Main {
 
-    static boolean isPalindrom(int number) {
-        int temp = number, reverseNumber = 0, lastNumber;
-        while (temp != 0) {
-            lastNumber = temp % 10;
-            reverseNumber = (reverseNumber * 10) + lastNumber;
-            temp /= 10;
+    static int fib(int n) {
+        if (n == 1 || n == 2)
+            return 1;
 
-        }
-        if (number==reverseNumber)
-             return true;
-        else
-            return false;
+
+         return fib(n - 1) + fib(n - 2);
     }
 
     public static void main(String[] args) {
-        System.out.println(isPalindrom(4004);
-    }
+        System.out.println(fib(6));
 
+    }
 
 }
