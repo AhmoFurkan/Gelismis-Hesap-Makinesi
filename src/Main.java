@@ -15,7 +15,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPalindrom(4004));
+        System.out.println(isPalindrom(40044444));
     }
 
 
