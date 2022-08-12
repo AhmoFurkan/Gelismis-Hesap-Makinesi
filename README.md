@@ -1,4 +1,1 @@
-# denemer2
-
-asdasd
-sadasdas d asaaa
+# Gelismis-Hesap-Makinesi
